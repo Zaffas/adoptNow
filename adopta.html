@@ -46,14 +46,71 @@
     </div>
   </header>
   <!--Fin de Header-->
-  <div class="container d-flex border bg-light">
+  <div class="container d-flex border">
     <div class="row">
-      <main>
+      <main class="col-md-12 col-lg-9 d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <form>
+              <div class="form-group">
+                <label for="emailinput">Dirección de correo</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Ingresa tu correo">
+                <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo a nadie.</small>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Dirección</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Calle, numero, piso y departamento">
+              </div>
+              <div class="form-group">
+                <div class="row">
+                  <div class="form-group col-xxl-5">
+                    <label for="inputCity">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-xxl-5">
+                    <label for="inputState">Provincia</label>
+                    <input type="text" class="form-control" id="inputState">
+                  </div>
+                  <div class="form-group col-xxl-2">
+                    <label for="inputZip">Codigo Postal</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="textarea">¿Que puedes ofrecer a nuestro peludo amigo?</label>
+                <textarea class="form-control" id="textarea" rows="7"></textarea>
+              </div>
+              <div class="col-auto my-1 d-flex justify-content-between">
+                <div><label class="mr-sm-2" for="inlineFormCustomSelect">¿Que amigo crees que es el indicado?</label>
+                  <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                    <option selected>Elige...</option>
+                    <option value="1">Lana</option>
+                    <option value="2">Nirvana</option>
+                    <option value="3">Tila</option>
+                    <option value="4">Kurama</option>
+                    <option value="5">Rouge</option>
+                    <option value="6">Pancho</option>
+                    <option value="7">Firulais</option>
+                    <option value="8">Sacha</option>
+                    <option value="9">Tomi</option>
+                    <option value="10">Lola</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </form>
+          </div>
+          <div class="row">
+            <img src="img/banner-adopta.jpg" alt="">
+          </div>
+        </div>
       </main>
       <!--Fin de Main-->
       <aside class="col-md-12 col-lg-3 d-flex align-items-center my-3">
         <div class="container">
-          <section class="row card bg-secondary">
+          <section class="row card bg-warning">
             <h2 class="text-center">¿Dónde Estamos?</h2>
             <div><iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2745510514387!2d-58.485288884174985!3d-34.59721836466236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb619b429179f%3A0x54ed9c2042a608ae!2sFacultad%20de%20Agronom%C3%ADa%20-%20UBA!5e0!3m2!1ses-419!2sar!4v1625357605155!5m2!1ses-419!2sar"
@@ -62,7 +119,7 @@
             <div class="d-flex flex-row-reverse"><a href="https://goo.gl/maps/kcyzRh7evXbV5nW87" target="blank"
                 class="btn btn-primary mb-2">Como llegar</a></div>
           </section>
-          <section class="row card mt-3 bg-secondary">
+          <section class="row card mt-3 bg-warning">
             <h2 class="text-center">¿Quiénes somos?</h2>
             <p class="text-justify"> Somos una cooperativa formada por estudiantes de la Facultad de Agronomia, ubicados sobre un
               pequeño predio donado por la institucion, para cuidar y curar animales encontrados en situaciones de riesgo.
