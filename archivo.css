@@ -1,13 +1,36 @@
+/*ETIQUETAS*/
 header {
-  min-height: 12vh;
+  min-height: 10vh;
 }
 main {
   min-height: 80vh;
 }
-h1 {
+div h1 a {
   font-family: "Otomanopee One", sans-serif;
+  color: aquamarine;
 }
-.menu_nav {
+div h1 a :hover {
+   yellow;
+}
+h2 {
+  font-family: "Nunito", sans-serif;
+}
+h3 {
+  font-family: "Nunito", sans-serif;
+}
+h4 {
+  font-family: "Nunito", sans-serif;
+}
+h5 {
+  font-family: "Nunito", sans-serif;
+}
+h6 {
+  font-family: "Nunito", sans-serif;
+}
+p {
+  font-family: "Nunito", sans-serif;
+}
+div a {
   font-family: "Nunito", sans-serif;
 }
 /*ANIMACION ULTIMOS AMIGOS*/
