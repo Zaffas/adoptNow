@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adopt Now</title>
+  <link rel="stylesheet" href="archivo.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
@@ -16,35 +17,35 @@
 </head>
 
 <body>
-  <header class="bg-primary">
-    <div class="h-100 d-flex align-items-center">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="container col-xs-12 col-sm-4">
-            <div class="col-12">
-              <h1><a href="index.html" class="text-decoration-none text-light font-weight-bold text-nowrap">Adopt Now</a></h1>
-            </div>
+  <div class="bg-primary">
+    <header class="container d-flex align-items-center ">
+      <div class="row d-flex justify-content-around align-items-center w-100">
+        <div class="container col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="row">
+            <h1>
+              <a href="index.html" class="text-decoration-none text-light font-weight-bold text-nowrap"> Adopt Now</a>
+            </h1>
           </div>
-          <div class="container col-xs-12 col-sm-8">
-            <div class="row align-items-center">
-              <div class="col-3 text-center">
-                <a class="text-decoration-none text-light" href="index.html">Inicio</a>
-              </div>
-              <div class="col-3 text-center">
-                <a class="text-decoration-none text-light" href="perros.html">Perros</a>
-              </div>
-              <div class="col-3 text-center">
-                <a class="text-decoration-none text-light" href="gatos.html">Gatos</a>
-              </div>
-              <div class="col-3 text-center">
-                <a class="text-decoration-none text-light" href="adopta.html">Adopta</a>
-              </div>
+        </div>
+        <div class="container col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="row align-items-center">
+            <div class="col-3 text-center">
+              <a class="menu_nav fs-3 text-decoration-none text-light" href="index.html">Inicio</a>
+            </div>
+            <div class="col-3 text-center">
+              <a class="menu_nav fs-3 text-decoration-none text-light" href="perros.html">Perros</a>
+            </div>
+            <div class="col-3 text-center">
+              <a class="menu_nav fs-3 text-decoration-none text-light" href="gatos.html">Gatos</a>
+            </div>
+            <div class="col-3 text-center">
+              <a class="menu_nav fs-3 text-decoration-none text-light" href="adopta.html">Adopta</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
+  </div>
   <!--Fin de Header-->
   <div class="container d-flex border bg-light ">
     <div class="row">
@@ -54,18 +55,65 @@
             <h2 class="text-right mt-3 mt-xs-3 mt-sm-3 mt-md-3">Ultimos amigos rescatados</h2>
           </div>
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-between my-3"><a href="gatos.html#tila"><img
-                  src="img/tila.jpg" class="img-fluid rounded mx-auto d-block" alt="Tila"></a></div>
-            <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-between my-3"><a href="perros.html#sacha"><img
-                  src="img/sacha.jpg" class="img-fluid rounded mx-auto d-block" alt="Sacha"></a></div>
-            <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-between my-3"><a href="gatos.html#kurama"><img
-                  src="img/kurama.jpg" class="img-fluid rounded mx-auto d-block" alt="Kurama"></a></div>
-            <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-between my-3"><a href="gatos.html#lana"><img
-                  src="img/lana.jpg" class="img-fluid rounded mx-auto d-block" alt="Lana"></a></div>
-            <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-between my-3"><a href="perros.html#pancho"><img
-                  src="img/pancho.jpg" class="img-fluid rounded mx-auto d-block" alt="Pancho"></a></div>
-            <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-between my-3"><a href="perros.html#firulais"><img
-                  src="img/firulais.jpg" class="img-fluid rounded mx-auto d-block" alt="Firulais"></a>
+            <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-between my-3">
+              <a href="gatos.html#tila">
+                <div class="contenedor">
+                  <img src="img/tila.jpg" class="img-fluid rounded mx-auto d-block" alt="Tila">
+                  <div class="capa rounded">
+                    <div class="texto">Tila</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-between my-3">
+              <a href="perros.html#sacha">
+                <div class="contenedor">
+                  <img src="img/sacha.jpg" class="img-fluid rounded mx-auto d-block" alt="Sacha">
+                  <div class="capa rounded">
+                    <div class="texto">Sacha</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-between my-3">
+              <a href="gatos.html#kurama">
+                <div class="contenedor">
+                  <img src="img/kurama.jpg" class="img-fluid rounded mx-auto d-block" alt="Kurama">
+                  <div class="capa rounded">
+                    <div class="texto">Kurama</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-between my-3">
+              <a href="perros.html#pancho">
+                <div class="contenedor">
+                  <img src="img/pancho.jpg" class="img-fluid rounded mx-auto d-block" alt="Pancho">
+                  <div class="capa rounded">
+                    <div class="texto">Pancho</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-between my-3">
+              <a href="gatos.html#lana">
+                <div class="contenedor">
+                  <img src="img/lana.jpg" class="img-fluid rounded mx-auto d-block" alt="Lana">
+                  <div class="capa rounded">
+                    <div class="texto">Lana</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-4 d-flex justify-content-between my-3">
+              <a href="perros.html#tomi">
+                <div class="contenedor">
+                  <img src="img/tomi.jpg" class="img-fluid rounded mx-auto d-block" alt="Tomi">
+                  <div class="capa rounded">
+                    <div class="texto">Tomi</div>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
