@@ -1,33 +1,33 @@
+main {
+  min-height: 80vh;
+}
+
 /*ANIMACION ULTIMOS AMIGOS*/
-.ultimosAmigos {
-  a {
-    &__contenedor {
-      position: relative;
-      &__capa {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: 0.5s ease;
-        background-color: #0d238f;
-        &__texto {
-          color: white;
-          font-family: "Nunito", sans-serif;
-          font-size: 3em;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-        }
-      }
-    }
-    &__contenedor:hover .capa {
-      opacity: 0.7;
-    }
-  }
+.contenedor {
+  position: relative;
+}
+.capa {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: $color-tres;
+}
+.texto {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.contenedor:hover .capa {
+  opacity: 0.7;
 }

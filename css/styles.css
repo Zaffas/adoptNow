@@ -1,9 +1,162 @@
+/*ETIQUETAS*/
+h2 {
+  font-family: "Nunito", sans-serif;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+}
+
+h4 {
+  font-family: "Nunito", sans-serif;
+}
+
+h5 {
+  font-family: "Nunito", sans-serif;
+}
+
+h6 {
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+}
+
+div a {
+  font-family: "Nunito", sans-serif;
+}
+
+.color__card {
+  background-color: #7a76f563;
+}
+
+.hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.hover:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+footer {
+  background-color: #0f0aa8;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.icon_redSocial {
+  -webkit-filter: brightness(100);
+          filter: brightness(100);
+}
+
+.icon_redSocial:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.footerMenu__icon {
+  -webkit-filter: brightness(100);
+          filter: brightness(100);
+}
+
+.footerMenu__icon:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+.footerMenu__text {
+  color: white;
+}
+
+.footerMenu__text:hover {
+  color: #ebc926;
+}
+
+section a h5 {
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
+}
+
+section:hover a h5 {
+  color: #ebc926;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+header {
+  min-height: 10vh;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+h1 {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+h1 a {
+  font-family: "Otomanopee One", sans-serif;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+h1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+h1:hover a:hover {
+  font-family: "Otomanopee One", sans-serif;
+  color: #ebc926;
+}
+
+nav div {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+nav div a {
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+nav:hover div:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+nav:hover div:hover a:hover {
+  color: #ebc926;
+}
+
+.header_color {
+  background-color: #0f0aa8;
+}
+
+main {
+  min-height: 80vh;
+}
+
 /*ANIMACION ULTIMOS AMIGOS*/
-.ultimosAmigos a__contenedor {
+.contenedor {
   position: relative;
 }
 
-.ultimosAmigos a__contenedor__capa {
+.capa {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -14,10 +167,10 @@
   opacity: 0;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  background-color: #0d238f;
+  background-color: #7a76f563;
 }
 
-.ultimosAmigos a__contenedor__capa__texto {
+.texto {
   color: white;
   font-family: "Nunito", sans-serif;
   font-size: 3em;
@@ -29,6 +182,6 @@
   -ms-transform: translate(-50%, -50%);
 }
 
-.ultimosAmigos a__contenedor:hover .capa {
+.contenedor:hover .capa {
   opacity: 0.7;
 }

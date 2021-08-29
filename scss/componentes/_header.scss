@@ -1,0 +1,39 @@
+header {
+  min-height: 10vh;
+  user-select: none;
+}
+h1 {
+  transition: 1s;
+  a {
+    font-family: "Otomanopee One", sans-serif;
+    color: white;
+    transition: 1s;
+  }
+}
+h1:hover {
+  transform: scale(1.1);
+  a:hover {
+    font-family: "Otomanopee One", sans-serif;
+    color: $color-dos;
+  }
+}
+nav {
+  div {
+    transition: 1s;
+    a {
+      color: white;
+      transition: 1s;
+    }
+  }
+}
+nav:hover {
+  div:hover {
+    transform: scale(1.1);
+    a:hover {
+      color: $color-dos;
+    }
+  }
+}
+.header_color {
+  background-color: $color-uno;
+}
