@@ -1,13 +1,22 @@
 /*ETIQUETAS*/
 header {
   min-height: 10vh;
+  user-select: none;
 }
 main {
   min-height: 80vh;
 }
+footer {
+  user-select: none;
+}
 div h1 a {
   font-family: "Otomanopee One", sans-serif;
-  color: aquamarine;
+  color: white;
+  transition: 1s;
+}
+div h1 a:hover {
+  font-family: "Otomanopee One", sans-serif;
+  color: #7ba3ed;
 }
 h2 {
   font-family: "Nunito", sans-serif;
@@ -30,6 +39,17 @@ p {
 div a {
   font-family: "Nunito", sans-serif;
 }
+/*CLASES*/
+.nav_menu {
+  transition: 1s;
+  color: white;
+}
+.nav_menu:hover {
+  color: #7ba3ed;
+}
+.background__primario {
+  background-color: #0b2f70;
+}
 /*ANIMACION ULTIMOS AMIGOS*/
 .contenedor {
   position: relative;
@@ -44,7 +64,7 @@ div a {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #0d238f;
+  background-color: #0b2f70;
 }
 .texto {
   color: white;
