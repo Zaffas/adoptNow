@@ -49,21 +49,23 @@ footer {
           user-select: none;
 }
 
-.icon_redSocial {
-  -webkit-filter: brightness(100);
-          filter: brightness(100);
+section a h5 {
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
 }
 
-.icon_redSocial:hover {
+section:hover a h5 {
+  color: #ebc926;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-filter: none;
-          filter: none;
 }
 
 .footerMenu__icon {
   -webkit-filter: brightness(100);
           filter: brightness(100);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .footerMenu__icon:hover {
@@ -75,22 +77,28 @@ footer {
 
 .footerMenu__text {
   color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .footerMenu__text:hover {
   color: #ebc926;
-}
-
-section a h5 {
-  -webkit-transition: 1s;
-  transition: 1s;
-  color: white;
-}
-
-section:hover a h5 {
-  color: #ebc926;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.icon_redSocial {
+  -webkit-filter: brightness(100);
+          filter: brightness(100);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.icon_redSocial:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: none;
+          filter: none;
 }
 
 header {
@@ -156,7 +164,7 @@ main {
   position: relative;
 }
 
-.capa {
+.contenedor .capa {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -170,7 +178,7 @@ main {
   background-color: #7a76f563;
 }
 
-.texto {
+.contenedor .capa .texto {
   color: white;
   font-family: "Nunito", sans-serif;
   font-size: 3em;

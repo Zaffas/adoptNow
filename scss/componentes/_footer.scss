@@ -2,27 +2,7 @@ footer {
   background-color: $color-uno;
   user-select: none;
 }
-.icon_redSocial {
-  filter: brightness(100);
-}
-.icon_redSocial:hover {
-  transform: scale(1.1);
-  filter: none;
-}
 
-.footerMenu__icon {
-  filter: brightness(100);
-}
-.footerMenu__icon:hover {
-  transform: scale(1.1);
-  filter: none;
-}
-.footerMenu__text {
-  color: white;
-}
-.footerMenu__text:hover {
-  color: $color-dos;
-}
 section {
   a {
     h5 {
@@ -37,5 +17,34 @@ section:hover {
       color: $color-dos;
       transform: scale(1.1);
     }
+  }
+}
+
+.footerMenu {
+  &__icon {
+    filter: brightness(100);
+    transition: 0.5s;
+  }
+  &__icon:hover {
+    transform: scale(1.1);
+    filter: none;
+  }
+  &__text {
+    color: white;
+    transition: 0.5s;
+  }
+  &__text:hover {
+    color: $color-dos;
+    transform: scale(1.1);
+  }
+}
+.icon {
+  &_redSocial {
+    filter: brightness(100);
+    transition: 0.5s;
+  }
+  &_redSocial:hover {
+    transform: scale(1.1);
+    filter: none;
   }
 }
