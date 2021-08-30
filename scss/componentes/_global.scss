@@ -1,23 +1,58 @@
 /*ETIQUETAS*/
 
-h2 {
-  font-family: $font-uno;
-}
-h3 {
-  font-family: $font-uno;
-}
-h4 {
-  font-family: $font-uno;
-}
-h5 {
-  font-family: $font-uno;
-}
-h6 {
-  font-family: $font-uno;
-}
 p {
   font-family: $font-uno;
 }
 div a {
   font-family: $font-uno;
+}
+@each $header,
+  $font
+    in (
+      h2: $font-uno,
+      h3: $font-uno,
+      h4: $font-uno,
+      h5: $font-uno,
+      h6: $font-uno
+    )
+{
+  #{$header} {
+    font-family: $font;
+  }
+}
+
+%button {
+  padding: 8px;
+  font-family: $font-uno;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  transition: 1s;
+  border: none;
+}
+.button_uno {
+  @extend %button;
+  background-color: $color-uno;
+}
+.button_dos {
+  @extend %button;
+  background-color: $color-dos;
+}
+.button_uno:hover {
+  color: $color-dos;
+  transform: scale(1.05);
+}
+.button_dos:hover {
+  color: $color-uno;
+  transform: scale(1.05);
+}
+@mixin font-weight($weight) {
+  font-weight: $weight;
+}
+.subtitulo_uno {
+  @include font-weight(900);
+}
+.subtitulo_dos {
+  @include font-weight(600);
 }

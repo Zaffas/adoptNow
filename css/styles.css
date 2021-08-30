@@ -1,6 +1,14 @@
 /*Colores*/
 /*Fonts*/
 /*ETIQUETAS*/
+p {
+  font-family: "Nunito", sans-serif;
+}
+
+div a {
+  font-family: "Nunito", sans-serif;
+}
+
 h2 {
   font-family: "Nunito", sans-serif;
 }
@@ -21,12 +29,44 @@ h6 {
   font-family: "Nunito", sans-serif;
 }
 
-p {
+.button_uno, .button_dos {
+  padding: 8px;
   font-family: "Nunito", sans-serif;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border: none;
 }
 
-div a {
-  font-family: "Nunito", sans-serif;
+.button_uno {
+  background-color: #0f0aa8;
+}
+
+.button_dos {
+  background-color: #ebc926;
+}
+
+.button_uno:hover {
+  color: #ebc926;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.button_dos:hover {
+  color: #0f0aa8;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.subtitulo_uno {
+  font-weight: 900;
+}
+
+.subtitulo_dos {
+  font-weight: 600;
 }
 
 .aside__color {
