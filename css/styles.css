@@ -1,3 +1,5 @@
+/*Colores*/
+/*Fonts*/
 /*ETIQUETAS*/
 h2 {
   font-family: "Nunito", sans-serif;
@@ -27,7 +29,7 @@ div a {
   font-family: "Nunito", sans-serif;
 }
 
-.color__card {
+.aside__color {
   background-color: #7a76f563;
 }
 
@@ -151,8 +153,13 @@ nav:hover div:hover a:hover {
   color: #ebc926;
 }
 
-.header_color {
+.header {
   background-color: #0f0aa8;
+}
+
+.nav__container {
+  font-weight: 900;
+  font-size: 1.5rem;
 }
 
 main {

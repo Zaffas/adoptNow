@@ -1,5 +1,7 @@
-.color__card {
-  background-color: $color-tres;
+.aside {
+  &__color {
+    background-color: $color-tres;
+  }
 }
 .hover {
   transition: 1s;
