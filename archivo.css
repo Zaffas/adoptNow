@@ -16,7 +16,13 @@ div h1 a {
 }
 div h1 a:hover {
   font-family: "Otomanopee One", sans-serif;
-  color: #7ba3ed;
+  color: #ebc926;
+}
+h1 {
+  transition: 1s;
+}
+h1:hover {
+  transform: scale(1.1);
 }
 h2 {
   font-family: "Nunito", sans-serif;
@@ -39,16 +45,41 @@ p {
 div a {
   font-family: "Nunito", sans-serif;
 }
+nav div {
+  transition: 1s;
+}
+nav div:hover {
+  transform: scale(1.1);
+}
 /*CLASES*/
 .nav_menu {
   transition: 1s;
   color: white;
 }
 .nav_menu:hover {
-  color: #7ba3ed;
+  color: #ebc926;
+}
+.firma {
+  transition: 1s;
+}
+.firma:hover {
+  color: #ebc926;
+  transform: scale(1.1);
 }
 .background__primario {
-  background-color: #0b2f70;
+  background-color: #0f0aa8;
+}
+.icon_red {
+  transition: 1s;
+}
+.icon_red:hover {
+  transform: scale(1.1);
+}
+.icon_menu {
+  transition: 1s;
+}
+.icon_menu:hover {
+  transform: scale(1.1);
 }
 /*ANIMACION ULTIMOS AMIGOS*/
 .contenedor {
@@ -64,7 +95,7 @@ div a {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #0b2f70;
+  background-color: #7a76f563;
 }
 .texto {
   color: white;
