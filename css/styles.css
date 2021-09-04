@@ -1,6 +1,15 @@
 /*Colores*/
 /*Fonts*/
 /*ETIQUETAS*/
+*::-moz-selection {
+  background: #ebc926;
+  color: #0f0aa8;
+}
+*::selection {
+  background: #ebc926;
+  color: #0f0aa8;
+}
+
 p {
   font-family: "Nunito", sans-serif;
 }
@@ -71,16 +80,6 @@ h6 {
 
 .aside__color {
   background-color: #7a76f563;
-}
-
-.hover {
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.hover:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 footer {

@@ -1,5 +1,8 @@
 /*ETIQUETAS*/
-
+*::selection {
+  background: $color-dos;
+  color: $color-uno;
+}
 p {
   font-family: $font-uno;
 }
