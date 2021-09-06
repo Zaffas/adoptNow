@@ -33,10 +33,6 @@ section:hover {
     color: white;
     transition: 0.5s;
   }
-  &__text:hover {
-    color: $color-dos;
-    transform: scale(1.1);
-  }
 }
 .icon {
   &_redSocial {

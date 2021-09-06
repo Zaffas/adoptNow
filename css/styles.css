@@ -122,12 +122,6 @@ section:hover a h5 {
   transition: 0.5s;
 }
 
-.footerMenu__text:hover {
-  color: #ebc926;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .icon_redSocial {
   -webkit-filter: brightness(100);
           filter: brightness(100);
@@ -238,4 +232,37 @@ main {
 
 .contenedor:hover .capa {
   opacity: 0.7;
+}
+
+/*FORMS*/
+label {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+small {
+  font-family: "Nunito", sans-serif;
+}
+
+input {
+  font-family: "Nunito", sans-serif;
+}
+
+select {
+  font-family: "Nunito", sans-serif;
+  border-color: black;
+  border-radius: 7px;
+}
+
+/*DONACION*/
+.imagen-donacion {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.imagen-donacion:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }

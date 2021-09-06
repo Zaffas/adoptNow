@@ -34,3 +34,31 @@ main {
     opacity: 0.7;
   }
 }
+
+/*FORMS*/
+
+label {
+  font-family: $font-uno;
+  font-weight: 700;
+}
+small {
+  font-family: $font-uno;
+}
+input {
+  font-family: $font-uno;
+}
+select {
+  font-family: $font-uno;
+  border-color: black;
+  border-radius: 7px;
+}
+
+/*DONACION*/
+
+.imagen-donacion {
+  transition: 1s;
+  transform: scale(0.8);
+}
+.imagen-donacion:hover {
+  transform: scale(1);
+}
