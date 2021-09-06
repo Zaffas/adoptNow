@@ -120,6 +120,16 @@ section:hover a h5 {
   color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  font-weight: 600;
+}
+
+.footerMenu__text:hover {
+  color: #ebc926;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: 600;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .icon_redSocial {
@@ -265,4 +275,9 @@ select {
 .imagen-donacion:hover {
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+
+/*ADOPTA*/
+.redondeado {
+  border-radius: 2rem;
 }

@@ -32,6 +32,13 @@ section:hover {
   &__text {
     color: white;
     transition: 0.5s;
+    font-weight: 600;
+  }
+  &__text:hover {
+    color: $color-dos;
+    transition: 0.5s;
+    font-weight: 600;
+    transform: scale(1.1);
   }
 }
 .icon {
